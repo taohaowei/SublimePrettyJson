@@ -73,6 +73,22 @@ JSON，之后你可以在命令行（curl/httpie）或其他地方使用...
 - `pretty_json`
 - `un_pretty_json`
 - `pretty_json_goto_symbol`
+- `escape_json`
+- `unescape_json`
+
+### 转义 JSON
+
+使用命令面板 <kbd>Ctrl+Shift+P</kbd> 搜索
+"Pretty JSON: Escape JSON"（你可以搜索部分内容，如 'escape'）
+这将把选中的 JSON 或整个缓冲区转义为字符串格式，
+可以用于在代码中作为字符串值使用（例如：在配置文件、API 请求体等场景）
+
+### 反转义 JSON
+
+使用命令面板 <kbd>Ctrl+Shift+P</kbd> 搜索
+"Pretty JSON: Unescape JSON"（你可以搜索部分内容，如 'unescape'）
+这将把转义的 JSON 字符串还原为正常的 JSON 格式，
+并自动格式化输出
 
 ### 将 JSON 转换为 XML
 
